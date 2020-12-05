@@ -11,7 +11,6 @@ DBPassword='REPLACEME'
 DBRootPassword='REPLACEME'
 
 # STEP 2 - Install system software - including Web and DB 
-# added comment
 sudo yum install -y mariadb-server httpd wget
 sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 
